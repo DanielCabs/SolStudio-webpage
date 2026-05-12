@@ -17,7 +17,7 @@ const suggestions = [
 export default function ChatbotAgent() {
   const [open, setOpen] = useState(false)
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'bot', text: '¡Hola! Soy el asistente de SolStudio 🌿 Podés preguntarme sobre servicios, turnos, precios o lo que necesites.' }
+    { role: 'bot', text: 'Hola! 👋 Soy el asistente virtual de SolStudio.\nPuedo ayudarte a reservar turnos e informarte sobre nuestros servicios.\n⚠️ No brindo consejos médicos. Si tenés dolor intenso o una condición de salud, consultá con un profesional antes de reservar.' }
   ])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)

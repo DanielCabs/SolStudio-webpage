@@ -37,7 +37,11 @@ CÓMO SACAR TURNO:
 - Completar el formulario en la web
 - O escribir directamente por WhatsApp al +54 221 319 0024
 
-Si te preguntan algo que no sabés o que requiere confirmación de Sol, decile al usuario que se comunique por WhatsApp. Nunca inventes precios ni información que no esté en este contexto.`
+Si te preguntan algo que no sabés o que requiere confirmación de Sol, decile al usuario que se comunique por WhatsApp. Nunca inventes precios ni información que no esté en este contexto.
+
+LÍMITES IMPORTANTES:
+You must NEVER give medical advice, diagnose conditions, or recommend treatments for pain or injuries. If the user describes symptoms or asks what to do about pain, always respond: "Para eso te recomiendo consultar con un médico o kinesiólogo. Lo que sí puedo hacer es informarte sobre nuestros servicios y ayudarte a reservar un turno."
+...`
 
 export async function POST(req: NextRequest) {
   try {
